@@ -39,24 +39,41 @@ This first exercise focuses on setting up the development environment and creati
    Installed packages listed in `requirements.txt` to verify environment cloning.
 
 7. **Documented the setup and learning**  
-   Added all necessary files to a folder named `Exercise-1.1`.
+   Added all necessary files to a folder named `Exercise1-1`.
 
 ---
 
-### Deliverables (in `Exercise-1.1/` folder)
+## Exercise 1.2 – Recipe App Data Structures
 
-- `add.py`: A script that adds two user-input numbers.
-- `requirements.txt`: Lists all packages installed in the virtual environment.
+### Overview
+
+This exercise introduced Python data structures by building a basic storage format for a Recipe app. Each recipe was modeled as a dictionary and added to a list representing a collection of recipes.
+
+### Data Structure Choices
+
+- Each **recipe** was stored as a `dict` with keys: `"name"`, `"cooking_time"`, and `"ingredients"`.
+- All recipes were collected in a `list` called `all_recipes`, which allows ordered access and easy modification.
+
+### Steps Completed
+
+1. Created `recipe_1` for Tea using a dictionary.
+2. Initialized a list `all_recipes` and added `recipe_1`.
+3. Created `recipe_2` to `recipe_5` with custom data.
+4. Appended all new recipes to the list.
+5. Printed the ingredients for each recipe from the list using `print()`.
+
+---
+
+### Deliverables (in `Exercise1-2/` folder)
+
+- `step1.png` to `step6.png`: Screenshots of the recipe creation process.
 - `README.md`: This file.
-- `learning-journal.md`: Reflections and notes about this exercise.
-- `Screenshots`: Documenting the process
+- `LearningJournal.md`: Reflections and notes about this exercise.
 
 ---
 
 ### What I Learned
 
-- How to set up and isolate Python environments.
-- Using `venv`, `pip`, and IPython.
-- Writing and running simple Python scripts from the terminal.
-- Exporting and replicating Python environments.
-- How to document and organize deliverables for version control and sharing.
+- How to use Python dictionaries to store structured data.
+- How to use lists to manage multiple objects.
+- How to access nested data using indexing and keys.

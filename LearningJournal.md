@@ -107,3 +107,49 @@ This exercise focused on combining data collection, conditionals, loops, and fun
 This task felt like a major step forward in integrating everything I’ve learned so far. Writing a function to handle input and using multiple loops gave the script structure and flexibility. I appreciated how control flow was used to define difficulty ratings—it added a small but meaningful feature that made the app feel smarter.
 
 Creating the script and testing it in the console helped build fluency and confidence. Organizing and presenting results clearly will also be useful when building more complex applications.
+
+---
+
+## 1.4 Exercise Summary
+
+This exercise introduced file storage and retrieval using Python’s `pickle` module. The task was split into two scripts:
+
+- `recipe_input.py` – collects recipes from the user, calculates their difficulty, and stores them in a binary file.
+- `recipe_search.py` – loads stored recipes and lets the user search for recipes containing a specific ingredient.
+
+---
+
+## What I Did
+
+- Defined a function `calc_difficulty()` to calculate difficulty based on cooking time and number of ingredients.
+- Created a `take_recipe()` function to collect input from the user and return a structured dictionary.
+- Handled file loading/saving using `pickle`, including proper error handling with `try/except/else/finally`.
+- Added logic to preserve previously entered recipes across multiple script runs.
+- Implemented a second script to let users search by ingredient using `enumerate()` and error-checked input.
+- Captured screenshots for both recipe entry and search flow.
+
+---
+
+## What I Learned
+
+- How to use the `pickle` module to read/write binary files.
+- The importance of file handling and exception management.
+- How to persist and retrieve complex Python objects between sessions.
+- More advanced input validation using `try/except` and index checking.
+- Practical applications of list scanning and conditionals to search data.
+
+---
+
+## Tools & Technologies Used
+
+- Python 3.13.4
+- Visual Studio Code
+- IPython Shell
+- Pickle module
+- Git + GitHub
+
+---
+
+## Reflection
+
+This exercise reinforced how useful file storage is in real-world applications. Being able to save and load recipe data across sessions made the app feel much more complete. I especially found the use of `try/except` for user input and file access helpful in making the program more robust. This was a big step in turning the recipe tracker into a functional tool.

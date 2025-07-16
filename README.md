@@ -100,3 +100,37 @@ This exercise builds on the earlier recipe structure and introduces dynamic user
 - `Exercise_1.3.py`
 - `Step1.png` through final step screenshot
 - Updated `LearningJournal.md`
+
+## Exercise 1.4 – Recipe App with File Storage and Search
+
+### Overview
+
+This exercise focused on persistent storage using the `pickle` module. It introduced a two-script system:
+
+- `recipe_input.py`: Collects recipes from the user and writes them to a binary file.
+- `recipe_search.py`: Reads the binary file and lets the user search recipes by ingredient.
+
+### Steps Completed
+
+**recipe_input.py**
+- Defined a `take_recipe()` function to gather recipe data.
+- Used `calc_difficulty()` to assign a difficulty level.
+- Used a try/except/else/finally block to load existing data or initialize new data.
+- Appended new recipes and ingredients, avoiding duplicates.
+- Saved the updated data structure into a binary file.
+
+**recipe_search.py**
+- Loaded the binary file using `pickle`.
+- Used `enumerate()` to list ingredients by index.
+- Allowed user to select an ingredient and view matching recipes.
+- Displayed recipe details using a helper function.
+
+---
+
+### Deliverables (in `Exercise1-4/` folder)
+
+- `recipe_input.py`
+- `recipe_search.py`
+- Generated binary file (e.g., `my_recipes.bin`)
+- Screenshots labeled `Part 1 Step 1`, `Part 2 Step 1`, etc.
+- Updated `LearningJournal.md`

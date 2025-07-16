@@ -62,3 +62,48 @@ This exercise focused on using Python’s built-in data types to structure recip
 This task made me think carefully about how data is structured and accessed in Python. It reinforced my understanding of mutable vs immutable types and the benefits of using dictionaries for clarity and flexibility. By experimenting in the IPython shell, I got real-time feedback, which made it easier to troubleshoot and understand what I was doing.
 
 Working in small chunks using interactive prompts felt efficient and confidence-building — a great lead-in to designing larger parts of the Recipe app later in the course.
+---
+
+## 1.3 Exercise Summary
+
+This exercise focused on combining data collection, conditionals, loops, and functions to build a more dynamic version of the Recipe app.
+
+---
+
+## What I Did
+
+- Created a new script called `Exercise_1.3.py`.
+- Initialized two empty lists: `recipes_list` and `ingredients_list`.
+- Defined a function `take_recipe()` that takes recipe details from the user and returns a dictionary with `name`, `cooking_time`, and `ingredients`.
+- Used a `for` loop to prompt the user to enter multiple recipes and ensure that unique ingredients were tracked.
+- Added another `for` loop that iterates through each recipe to determine its difficulty level using control flow.
+- Printed each recipe’s details and its calculated difficulty level.
+- Displayed the final list of unique ingredients in alphabetical order.
+- Took terminal screenshots for each step and organized them for upload.
+
+---
+
+## What I Learned
+
+- How to collect structured user input using a function and return values.
+- The role of conditionals (`if/elif/else`) in branching logic.
+- How to use nested loops to handle related collections.
+- Methods to ensure uniqueness in lists and how to alphabetically sort output.
+- Importance of writing clean and reusable code using functions.
+
+---
+
+## Tools & Technologies Used
+
+- Python 3.13.4
+- Visual Studio Code
+- IPython Shell
+- Git + GitHub
+
+---
+
+## Reflection
+
+This task felt like a major step forward in integrating everything I’ve learned so far. Writing a function to handle input and using multiple loops gave the script structure and flexibility. I appreciated how control flow was used to define difficulty ratings—it added a small but meaningful feature that made the app feel smarter.
+
+Creating the script and testing it in the console helped build fluency and confidence. Organizing and presenting results clearly will also be useful when building more complex applications.

@@ -77,3 +77,26 @@ This exercise introduced Python data structures by building a basic storage form
 - How to use Python dictionaries to store structured data.
 - How to use lists to manage multiple objects.
 - How to access nested data using indexing and keys.
+## Exercise 1.3 – Recipe App with Difficulty Ratings
+
+### Overview
+
+This exercise builds on the earlier recipe structure and introduces dynamic user input via functions and loops. The script prompts the user to enter any number of recipes, tracks all unique ingredients, and calculates each recipe’s difficulty level based on its cooking time and number of ingredients.
+
+### Steps Completed
+
+1. Created `Exercise_1.3.py` and defined two lists: `recipes_list` and `ingredients_list`.
+2. Built a `take_recipe()` function to take user input and return a recipe dictionary.
+3. Collected multiple recipes in a loop, ensuring ingredients were only added once.
+4. Used control flow to determine difficulty levels (Easy, Medium, Intermediate, Hard).
+5. Printed all recipes with their info and difficulty.
+6. Displayed all ingredients in alphabetical order.
+7. Captured terminal screenshots of each step and saved them appropriately.
+
+---
+
+### Deliverables (in `Exercise1-3/` folder)
+
+- `Exercise_1.3.py`
+- `Step1.png` through final step screenshot
+- Updated `LearningJournal.md`
